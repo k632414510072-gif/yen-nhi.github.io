@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Yen Nhi – Portfolio</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700&display=swap"
+    rel="stylesheet"
+  />
+
+  <!-- Font Awesome Icons -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ===================== NAVIGATION ===================== -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#home" class="nav-logo">Yen Nhi</a>
+
+      <!-- Hamburger button (mobile) -->
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home"     class="nav-link">Home</a></li>
+        <li><a href="#about"    class="nav-link">About</a></li>
+        <li><a href="#skills"   class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#activities" class="nav-link">Activities</a></li>
+        <li><a href="#contact"  class="nav-link">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ===================== HOME / HERO ===================== -->
+  <section class="hero" id="home">
+    <div class="hero-container">
+      <!-- Profile picture placeholder -->
+      <div class="hero-avatar">
+        <div class="avatar-placeholder">
+          <i class="fa-solid fa-user"></i>
+        </div>
+      </div>
+
+      <div class="hero-text">
+        <p class="hero-greeting">Hello, I'm</p>
+        <h1 class="hero-name">Yen Nhi</h1>
+        <h2 class="hero-title">International Business Student</h2>
+        <p class="hero-intro">
+          I am a second-year International Business student at Foreign Trade
+          University interested in global business, data analysis and technology.
+        </p>
+        <div class="hero-location">
+          <i class="fa-solid fa-location-dot"></i>
+          <span>3/19, 1194 Đường Láng, Láng Thượng, Đống Đa, Hà Nội</span>
+        </div>
+        <div class="hero-actions">
+          <a href="#contact" class="btn btn-primary">Get in Touch</a>
+          <a href="#projects" class="btn btn-outline">View Projects</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Decorative wave -->
+    <div class="hero-wave">
+      <svg viewBox="0 0 1200 80" preserveAspectRatio="none">
+        <path d="M0,40 C300,80 900,0 1200,40 L1200,80 L0,80 Z" fill="#f8fafc"/>
+      </svg>
+    </div>
+  </section>
+
+  <!-- ===================== ABOUT ===================== -->
+  <section class="section" id="about">
+    <div class="container">
+      <h2 class="section-title fade-in">About Me</h2>
+      <div class="about-grid fade-in">
+        <div class="about-card">
+          <i class="fa-solid fa-graduation-cap about-icon"></i>
+          <h3>Education</h3>
+          <p>
+            I am currently studying International Business at
+            <strong>Foreign Trade University (FTU)</strong>.
+          </p>
+        </div>
+        <div class="about-card">
+          <i class="fa-solid fa-users about-icon"></i>
+          <h3>Community</h3>
+          <p>
+            I am also a member of <strong>IBConnect FTU</strong>, a student
+            network focused on international business collaboration and
+            professional development.
+          </p>
+        </div>
+        <div class="about-card">
+          <i class="fa-solid fa-globe about-icon"></i>
+          <h3>Interests</h3>
+          <p>
+            My interests span global business strategy, data analysis,
+            and the intersection of technology with international trade.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== SKILLS ===================== -->
+  <section class="section section-alt" id="skills">
+    <div class="container">
+      <h2 class="section-title fade-in">Skills</h2>
+      <div class="skills-grid fade-in">
+
+        <!-- Microsoft Excel -->
+        <div class="skill-card">
+          <i class="fa-solid fa-file-excel skill-icon"></i>
+          <span>Microsoft Excel</span>
+        </div>
+
+        <!-- Microsoft Word -->
+        <div class="skill-card">
+          <i class="fa-solid fa-file-word skill-icon"></i>
+          <span>Microsoft Word</span>
+        </div>
+
+        <!-- PowerPoint -->
+        <div class="skill-card">
+          <i class="fa-solid fa-file-powerpoint skill-icon"></i>
+          <span>PowerPoint</span>
+        </div>
+
+        <!-- SQL -->
+        <div class="skill-card">
+          <i class="fa-solid fa-database skill-icon"></i>
+          <span>SQL</span>
+        </div>
+
+        <!-- Data Analysis -->
+        <div class="skill-card">
+          <i class="fa-solid fa-chart-line skill-icon"></i>
+          <span>Data Analysis</span>
+        </div>
+
+        <!-- English -->
+        <div class="skill-card">
+          <i class="fa-solid fa-language skill-icon"></i>
+          <span>English</span>
+        </div>
+
+        <!-- Chinese -->
+        <div class="skill-card">
+          <i class="fa-solid fa-language skill-icon"></i>
+          <span>Chinese</span>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== PROJECTS ===================== -->
+  <section class="section" id="projects">
+    <div class="container">
+      <h2 class="section-title fade-in">Projects</h2>
+      <div class="projects-grid fade-in">
+
+        <!-- Project 1 -->
+        <div class="project-card">
+          <div class="project-top">
+            <i class="fa-solid fa-handshake project-icon"></i>
+            <span class="project-badge">Mentorship</span>
+          </div>
+          <h3 class="project-title">IBuddy Project</h3>
+          <p class="project-desc">
+            A mentoring platform connecting mentors and mentees for FTU
+            economics students, fostering academic growth and professional
+            networking within the university community.
+          </p>
+          <div class="project-footer">
+            <span class="project-tag">Education</span>
+            <span class="project-tag">Networking</span>
+          </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="project-card">
+          <div class="project-top">
+            <i class="fa-solid fa-book-open project-icon"></i>
+            <span class="project-badge">Charity</span>
+          </div>
+          <h3 class="project-title">FTU Book Exchange Charity Project</h3>
+          <p class="project-desc">
+            Organizing book donations and exchanges for students, making
+            educational resources more accessible and promoting a culture of
+            sharing within FTU.
+          </p>
+          <div class="project-footer">
+            <span class="project-tag">Volunteer</span>
+            <span class="project-tag">Community</span>
+          </div>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="project-card">
+          <div class="project-top">
+            <i class="fa-solid fa-heart project-icon"></i>
+            <span class="project-badge">Volunteer</span>
+          </div>
+          <h3 class="project-title">Tet Dong Day Charity Project</h3>
+          <p class="project-desc">
+            A volunteer project supporting communities during Lunar New Year,
+            bringing warmth and resources to those in need during the
+            traditional Tết celebration.
+          </p>
+          <div class="project-footer">
+            <span class="project-tag">Social Impact</span>
+            <span class="project-tag">Culture</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== ACTIVITIES ===================== -->
+  <section class="section section-alt" id="activities">
+    <div class="container">
+      <h2 class="section-title fade-in">Activities</h2>
+      <div class="activities-grid fade-in">
+
+        <div class="activity-card">
+          <div class="activity-icon-wrap">
+            <i class="fa-solid fa-network-wired"></i>
+          </div>
+          <div class="activity-body">
+            <h3>Member of IBConnect FTU</h3>
+            <p>
+              Active member of the IBConnect FTU student network, participating
+              in events focused on international business and professional
+              development.
+            </p>
+          </div>
+        </div>
+
+        <div class="activity-card">
+          <div class="activity-icon-wrap">
+            <i class="fa-solid fa-star"></i>
+          </div>
+          <div class="activity-body">
+            <h3>Organizer – IBuddy Mentorship Project</h3>
+            <p>
+              Helped organize the IBuddy mentorship program, coordinating
+              mentor–mentee matching and scheduling events for FTU students.
+            </p>
+          </div>
+        </div>
+
+        <div class="activity-card">
+          <div class="activity-icon-wrap">
+            <i class="fa-solid fa-hands-helping"></i>
+          </div>
+          <div class="activity-body">
+            <h3>Volunteer – FTU Community Projects</h3>
+            <p>
+              Participated in multiple FTU community volunteer initiatives,
+              contributing time and effort to charity and social welfare events.
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== CONTACT ===================== -->
+  <section class="section" id="contact">
+    <div class="container">
+      <h2 class="section-title fade-in">Contact</h2>
+      <p class="section-subtitle fade-in">
+        Feel free to reach out — I'd love to connect!
+      </p>
+      <div class="contact-cards fade-in">
+
+        <a href="mailto:nhidy3.ibconnect@ftu.edu.vn" class="contact-card">
+          <i class="fa-solid fa-envelope contact-icon"></i>
+          <div>
+            <h3>Email</h3>
+            <p>nhidy3.ibconnect@ftu.edu.vn</p>
+          </div>
+        </a>
+
+        <a href="#" class="contact-card" aria-label="GitHub (coming soon)">
+          <i class="fa-brands fa-github contact-icon"></i>
+          <div>
+            <h3>GitHub</h3>
+            <p>Coming soon</p>
+          </div>
+        </a>
+
+        <div class="contact-card no-link">
+          <i class="fa-solid fa-location-dot contact-icon"></i>
+          <div>
+            <h3>Location</h3>
+            <p>Đống Đa, Hà Nội, Vietnam</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="footer">
+    <div class="container">
+      <p class="footer-name">Yen Nhi</p>
+      <p class="footer-subtitle">International Business Student · FTU</p>
+      <div class="footer-links">
+        <a href="mailto:nhidy3.ibconnect@ftu.edu.vn" aria-label="Email">
+          <i class="fa-solid fa-envelope"></i>
+        </a>
+        <a href="#" aria-label="GitHub">
+          <i class="fa-brands fa-github"></i>
+        </a>
+      </div>
+      <p class="footer-copy">© 2024 Yen Nhi. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
